@@ -1,4 +1,4 @@
-import { log } from "@/lib/log"
+import { log } from "@/src/lib/log"
 
 export function resizeCanvas(canvas: HTMLCanvasElement, gl: WebGL2RenderingContext) {
   const w = canvas.clientWidth * window.devicePixelRatio;

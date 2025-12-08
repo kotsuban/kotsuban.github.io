@@ -25,8 +25,8 @@
     /* Aliases */
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./*"]
     }
   },
-  "include": ["src", "global.d.ts"]
+  "include": ["src", "global.d.ts", "blog/blog.ts"]
 }

@@ -1,0 +1,62 @@
+:root {
+  --c-black: rgb(10, 10, 10);
+  --c-white: rgb(255, 255, 255);
+  --c-gray: rgba(242, 242, 247, 0.5);
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--c-white);
+  background-color: var(--c-black);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  display: block;
+  color: var(--c-white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.content {
+  z-index: 5;
+  max-width: 515px;
+  container-type: inline-size;
+  width: 100%;
+  margin: 1rem;
+}
+
+.margin-b-1 {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  font-variant-numeric: tabular-nums;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 1rem;
+  color: var(--c-gray);
+}

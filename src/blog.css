@@ -1,0 +1,21 @@
+#app {
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.date {
+  color: var(--c-gray);
+}
+
+p {
+  text-align: justify;
+}
