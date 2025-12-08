@@ -33,7 +33,7 @@ function createRenderer(gl: WebGL2RenderingContext, canvas: HTMLCanvasElement) {
 
       float pattern = sin(p.x * 0.9 + p.y * 0.1 + uTime * 0.01) * 0.1 + 0.16;
       vec2 rel = (gl_FragCoord.xy - uPos) / uResolution.y;
-      float blend = 0.1 / (abs(rel.y) * abs(rel.x) * 90.0 + 0.001);
+      float blend = 0.2 / (abs(rel.y) * abs(rel.x) * 90.0 + 0.001);
       blend *= pattern;
       blend *= smoothstep(-0.5, 0.0, rel.x);
       blend *= 1.0 - smoothstep(0.0, 0.2, rel.y);
@@ -81,7 +81,7 @@ function createRenderer(gl: WebGL2RenderingContext, canvas: HTMLCanvasElement) {
     const { x, y } = getRectFromElementRelative(titleEl, canvas);
     gl.useProgram(program);
     gl.uniform2f(uRes, canvas.width, canvas.height);
-    gl.uniform2f(uPos, x - 30, y + 20);
+    gl.uniform2f(uPos, x - 47, y + 30);
   }
 
   window.addEventListener("resize", resize);
