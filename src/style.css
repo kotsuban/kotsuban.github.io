@@ -83,7 +83,7 @@ h1 {
 .links-vertical {
   display:  flex;
   flex-direction: column;
-  height: -webkit-fill-available;
+  min-height: 150px;
   margin-top: -3px;
   gap: 8px;
 }
