@@ -28,12 +28,12 @@ function createRenderer(gl: WebGL2RenderingContext, canvas: HTMLCanvasElement) {
 
       for(float i = 0.0; i < 11.0; i++) {
           p.x += sin(p.y + i + uTime * 0.09);
-          p *= mat2(6.0, -8.0, 5.0, 6.0) / 7.5;
+          p *= mat2(6.0, -8.0, 5.0, 5.0) / 7.5;
       }
 
       float pattern = sin(p.x * 0.9 + p.y * 0.1 + uTime * 0.01) * 0.1 + 0.16;
       vec2 rel = (gl_FragCoord.xy - uPos) / uResolution.y;
-      float blend = 0.2 / (abs(rel.y) * abs(rel.x) * 90.0 + 0.001);
+      float blend = 0.1 / (abs(rel.y) * abs(rel.x) * 90.0 + 0.001);
       blend *= pattern;
       blend *= smoothstep(-0.5, 0.0, rel.x);
       blend *= 1.0 - smoothstep(0.0, 0.2, rel.y);
