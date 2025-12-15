@@ -10,9 +10,10 @@
 }
 
 .title {
-  font-size: 49px;
+  text-align: center;
+  font-size: 49.5px;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin: 1.4rem calc(50% - 50vw) 1rem calc(50% - 50vw);
 }
 
 .description {
@@ -102,7 +103,7 @@
 
 @media (max-width: 578px) {
   .title {
-    font-size: 9.44cqw;
+    font-size: 9.5cqw;
   }
 
   .description, a {
