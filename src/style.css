@@ -101,6 +101,10 @@
   shape-rendering: crispEdges;
 }
 
+.hidden {
+  display: none;
+}
+
 @media (max-width: 578px) {
   .title {
     font-size: 9.5cqw;

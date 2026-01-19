@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /blog/hello-world/
 
 Sitemap: https://www.anthonykotsuban.com/sitemap.xml
