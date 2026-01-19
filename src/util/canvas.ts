@@ -1,5 +1,3 @@
-import { log } from "@/src/lib/log"
-
 export function resizeCanvas(canvas: HTMLCanvasElement, gl: WebGL2RenderingContext) {
   const w = canvas.clientWidth * window.devicePixelRatio;
   const h = canvas.clientHeight * window.devicePixelRatio;
@@ -27,8 +25,8 @@ export function createWebGLProgram(gl: WebGL2RenderingContext, vs: string, fs: s
   gl.linkProgram(program);
 
   if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
-    log("ERROR", `vertex: ${gl.getShaderInfoLog(vertexShader)}\n${vs}`)
-    log("ERROR", `fragment: ${gl.getShaderInfoLog(fragmentShader)}\n${fs}`)
+    console.log("ERROR", `vertex: ${gl.getShaderInfoLog(vertexShader)}\n${vs}`)
+    console.log("ERROR", `fragment: ${gl.getShaderInfoLog(fragmentShader)}\n${fs}`)
   }
 
   return program;
