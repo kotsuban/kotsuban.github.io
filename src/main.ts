@@ -2,7 +2,7 @@ import '@/src/common.css'
 import '@/src/style.css'
 import { resizeCanvas, createWebGLProgram, getRectFromElementRelative } from "@/src/util/canvas"
 
-const footerEl = document.querySelector(".footer") as HTMLDivElement;
+const footerEl = document.querySelector(".footer-left") as HTMLDivElement;
 footerEl.textContent = (footerEl.textContent as string).replace("2025-11-26T02:40:46.422Z", new Date().toISOString())
 
 const contentEl = document.querySelector(".content") as HTMLDivElement;

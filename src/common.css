@@ -53,6 +53,8 @@ h1 {
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
   font-variant-numeric: tabular-nums;
   text-align: justify;
   font-size: 14px;
