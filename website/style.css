@@ -1,4 +1,7 @@
-#app {
+@import "@/src/styles/base.css";
+@import "@/src/styles/layout.css";
+
+.wrapper {
   cursor: default;
   height: calc(100vh - 1rem - 1rem);
   margin: 0 auto;
@@ -21,6 +24,12 @@
   hyphens: auto;
   width: fit-content;
   margin: 8px 0;
+}
+
+.link {
+  display: inline;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .hub {

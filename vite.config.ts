@@ -3,6 +3,7 @@ import path, { resolve } from "path";
 import { viteSingleFile } from 'vite-plugin-singlefile';
 
 export default defineConfig({
+  root: "website",
   plugins: [
     viteSingleFile({
       useRecommendedBuildConfig: false,
@@ -17,9 +18,9 @@ export default defineConfig({
     modulePreload: { polyfill: false },
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        blog: resolve(__dirname, 'blog/index.html'),
-        "hello-world": resolve(__dirname, 'blog/hello-world/index.html'),
+        main: resolve(__dirname, 'website/index.html'),
+        blog: resolve(__dirname, 'website/blog/index.html'),
+        "hello-world": resolve(__dirname, 'website/blog/hello-world/index.html'),
       }
     }
   }

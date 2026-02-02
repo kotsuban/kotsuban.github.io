@@ -1,0 +1,7 @@
+@import "@/src/styles/base.css";
+@import "@/src/styles/layout.css";
+
+.title {
+  font-weight: 700;
+  font-size: 71.3px;
+}

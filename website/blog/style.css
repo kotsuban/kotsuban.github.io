@@ -1,4 +1,7 @@
-#app {
+@import "@/src/styles/base.css";
+@import "@/src/styles/layout.css";
+
+.wrapper {
   margin: 0 auto;
   padding: 1rem;
   display: flex;

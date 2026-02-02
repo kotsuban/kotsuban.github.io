@@ -39,26 +39,3 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
-.content {
-  z-index: 5;
-  max-width: 515px;
-  container-type: inline-size;
-  width: 100%;
-  margin: 1rem;
-}
-
-.margin-b-1 {
-  margin-bottom: 1rem;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  font-variant-numeric: tabular-nums;
-  text-align: justify;
-  font-size: 14px;
-  font-weight: 300;
-  margin-top: 1rem;
-  color: var(--c-gray);
-}

@@ -1,5 +1,3 @@
-import '@/src/common.css'
-import '@/src/style.css'
 import { resizeCanvas, createWebGLProgram, getRectFromElementRelative } from "@/src/util/canvas"
 
 const footerEl = document.querySelector(".footer-left") as HTMLDivElement;
