@@ -2,8 +2,9 @@
   --c-black: rgb(10, 10, 10);
   --c-white: rgb(255, 255, 255);
   --c-gray: rgba(242, 242, 247, 0.5);
+  --c-main: #ECCFA3;
 
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Baskerville, "Times New Roman", serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,7 +20,7 @@
 
 a {
   display: block;
-  color: var(--c-white);
+  color: var(--c-main);
   text-decoration: none;
   cursor: pointer;
 }
@@ -27,6 +28,7 @@ a {
 a:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-decoration-thickness: 0.5px;
 }
 
 body {
