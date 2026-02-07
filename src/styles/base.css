@@ -1,6 +1,6 @@
 :root {
-  --c-black: rgb(10, 10, 10);
-  --c-white: rgb(255, 255, 255);
+  --c-black: rgb(0, 0, 0);
+  --c-white: #DDDDDD;
   --c-gray: rgba(242, 242, 247, 0.5);
   --c-main: #ECCFA3;
 
