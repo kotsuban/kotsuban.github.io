@@ -83,6 +83,11 @@
   z-index: 2;
   touch-action: none;
   pointer-events: none;
+  max-width: 1440px;
+  max-height: 779px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .qrcode {
