@@ -14,7 +14,7 @@
 
 .title {
   text-align: center;
-  font-size: 49.5px;
+  font-size: 9.2cqw;
   font-weight: 400;
   margin: 0rem calc(50% - 50vw) 1rem calc(50% - 50vw);
   text-shadow: 0px 0px 2px #FFDF9D;
@@ -84,7 +84,7 @@
   touch-action: none;
   pointer-events: none;
   max-width: 1440px;
-  max-height: 779px;
+  max-height: 556px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -102,10 +102,6 @@
 }
 
 @media (max-width: 578px) {
-  .title {
-    font-size: 9.5cqw;
-  }
-
   .description, .link-item {
     font-size: 16px;
   }
