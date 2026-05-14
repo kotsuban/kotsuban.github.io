@@ -18,6 +18,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+*:focus {
+  outline: 0.5px solid var(--c-main);
+}
+
 a {
   display: block;
   color: var(--c-main);
