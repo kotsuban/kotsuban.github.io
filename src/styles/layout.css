@@ -1,5 +1,4 @@
 .content {
-  /* z-index: 5; */
   max-width: 535px;
   container-type: inline-size;
   width: 100%;
@@ -7,6 +6,7 @@
   position: relative;
   padding: 5px;
 }
+
 
 .content::after {
   content: "";

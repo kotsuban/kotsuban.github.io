@@ -90,17 +90,6 @@
   transform: translate(-50%, -50%);
 }
 
-.qrcode {
-  max-width: 150px;
-  width: 100%;
-  height: auto;
-  shape-rendering: crispEdges;
-}
-
-.hidden {
-  display: none;
-}
-
 @media (max-width: 578px) {
   .description, .link-item {
     font-size: 16px;
@@ -109,9 +98,5 @@
   .footer {
     font-size: 12px;
     text-align: center;
-  }
-
-  .qrcode {
-    max-width: 120px;
   }
 }
