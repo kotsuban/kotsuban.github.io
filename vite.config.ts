@@ -20,7 +20,6 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'website/index.html'),
         blog: resolve(__dirname, 'website/blog/index.html'),
-        "hello-world": resolve(__dirname, 'website/blog/hello-world/index.html'),
       }
     }
   }
